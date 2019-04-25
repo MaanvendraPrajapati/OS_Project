@@ -9,6 +9,7 @@ int main()
 	printf("\t\t\t\t\t\t\t\t\t\t#############################################################################\n");
 	int allocated[a][b];
 	printf("Enter amount of allocated resource for each Process::\n");
+	int c=a;
 	for(a=0;a<=c-1;a++)
 	{
 		for(b=0;b<=2;b++)
