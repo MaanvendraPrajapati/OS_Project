@@ -3,9 +3,10 @@ int main()
 {
 	int a,b,raw=0,i,j,k;
 	b=3;
+	printf("\t\t\t\t\t\t\t\t\t\t#############################################################################\n");
 	printf("Ener number of processes:: ");
 	scanf("%d",&a);
-	int c=a;
+	printf("\t\t\t\t\t\t\t\t\t\t#############################################################################\n");
 	int allocated[a][b];
 	printf("Enter amount of allocated resource for each Process::\n");
 	for(a=0;a<=c-1;a++)
@@ -15,6 +16,7 @@ int main()
 			scanf("%d",&allocated[a][b]);
 		}
 	}
+	printf("\t\t\t\t\t\t\t\t\t\t#############################################################################\n");
 	int maximum[a][b];
 	printf("Enter maximum amount of each process that can be allocated::\n");
 	for(a=0;a<=c-1;a++)
@@ -24,7 +26,7 @@ int main()
 			scanf("%d",&maximum[a][b]);
 		}
 	}
-		
+	printf("\t\t\t\t\t\t\t\t\t\t#############################################################################\n");
 	int available[3];
 	printf("Enter available amount for each process::\n");
 	for(int p=0;p<=2;p++)
@@ -61,7 +63,7 @@ int main()
             } 
         } 
     } 
-  
+  printf("\t\t\t\t\t\t\t\t\t\t#############################################################################\n");
     printf("Sequence for Process execution is::\n"); 
     for (i = 0; i < a - 1; i++) 
         printf(" P%d ->", answer[i]); 
